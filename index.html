@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Html Counter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1 class="heading">Counter using HTML</h1>
+    <div class="text-container">
+      <p class="text">Your current count is :<span id="counter">5</span></p>
+      <hr />
+    </div>
+    <p class="error-msg" style="display: none">Error : Cannot go below 0</p>
+    <div class="buttons">
+      <button class="btn" id="dec" onclick="decrease()">Decrement</button>
+      <button class="btn" id="inc" onclick="increase()">Increment</button>
+      <button
+        class="btn"
+        id="clear"
+        style="color: white; background-color: black; border: 2px solid white"
+        onclick="reset()"
+      >
+        Clear
+      </button>
+    </div>
+
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

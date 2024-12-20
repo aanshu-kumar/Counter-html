@@ -1,0 +1,41 @@
+body {
+  font-family: "Roboto", serif;
+  background-color: black;
+  color: white;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+.heading {
+  font-size: 60px;
+  font-weight: 400;
+  margin: 0px;
+}
+.text {
+  font-weight: 200px;
+  color: lightgray;
+}
+.text-container {
+  margin-bottom: 30px;
+}
+#counter {
+  padding: 0px 5px;
+  color: white;
+}
+hr {
+  width: 13% !important;
+  margin: 0px;
+}
+.error-msg {
+  margin: 30px 10px;
+  color: red;
+  font-weight: 200px;
+}
+
+.btn {
+  text-decoration: none;
+  background-color: white;
+  height: 40px;
+  width: 130px;
+  margin: 0px 5px;
+  border: none;
+}
